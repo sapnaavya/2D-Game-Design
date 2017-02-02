@@ -1,0 +1,208 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Escape the Graveyard</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<frameMax>500</frameMax>
+<username>dpandey_sapnapg</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>4600</width>
+  <height>480</height>
+</world>
+
+<frameRateAvg>200</frameRateAvg>
+
+<layer1>
+  <file>images/layer1.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</layer1>
+
+<layer2>
+  <file>images/layer2.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</layer2>
+
+<layer3>
+  <file>images/layer3.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>4</factor>
+  <transparency>false</transparency>
+</layer3>
+
+<layer4>
+  <file>images/layer4.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>8</factor>
+  <transparency>false</transparency>
+</layer4>
+
+<house>
+  <file>images/house.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</house>
+
+<moon>
+  <file>images/moon.png</file>
+  <startLoc x="50" y="70"/>
+  <transparency>false</transparency>
+</moon>
+
+<boy>
+  <filePositive>images/boyleft.png</filePositive>
+  <fileNegative>images/boyright.png</fileNegative>
+  <startLoc x="54" y="200"/>
+  <xframes>1</xframes>
+  <yframes>9</yframes>
+  <yBound>180</yBound>
+  <frameInterval>50</frameInterval>
+  <speedX>350</speedX>
+  <speedY>350</speedY>
+  <comeback>true</comeback>
+  <transparency>false</transparency>
+  <chunk>
+    <comeback>false</comeback>
+    <size>15</size>
+    <distance>60</distance>
+  </chunk>
+</boy>
+
+<hudBar>
+  <width>350</width>
+  <height>260</height>
+  <startLoc x="490" y="20"/>
+  <color red="255" green="255" blue="0"/>
+  <time>3</time>
+</hudBar>
+
+<healthBar>
+  <startLoc x="20" y="100"/>
+  <length>200</length>
+  <increment>30</increment>
+  <thick>14</thick>
+  <moveCount>50</moveCount>
+</healthBar>
+
+<pumpkin>
+  <file>images/pumpkin.png</file>
+  <startLoc x="0" y="0"/>
+  <endLoc x="3000" y="480"/>
+  <cushion>50</cushion>
+  <noOfObjects actual="2" instances="9"/>
+  <scale min="0.2" max="1.2"/>
+  <width>32</width>
+  <height>32</height>
+  <minspeed x="10" y="10"/>
+  <maxspeed x="300" y="200"/>
+  <comeback>true</comeback>
+  <startOver>true</startOver>
+  <transparency>true</transparency>
+</pumpkin>
+
+<ghost>
+  <file>images/ghost.png</file>
+  <startLoc x="404" y="150"/>
+  <endLoc x="1000" y="480"/>
+  <frameInterval>100</frameInterval>
+  <speed x="-60" y="-10"/>
+  <comeback>true</comeback>
+  <xframes>1</xframes>
+  <yframes>3</yframes>
+  <yBound>200</yBound>
+  <xAdd min="600" max="900"/>
+  <yAdd min="30" max="80"/>
+  <noOfObjects>5</noOfObjects>
+  <transparency>true</transparency>
+  <chunk>
+    <comeback>false</comeback>
+    <size>18</size>
+    <distance>50</distance>
+  </chunk>
+</ghost>
+
+<bullet>
+  <filePositive>images/bulletleft.png</filePositive>
+  <fileNegative>images/bulletright.png</fileNegative>
+  <comeback>false</comeback>
+  <totalInstance>5</totalInstance>
+  <startLoc x="50" y="470"/>
+  <xframes>1</xframes>
+  <yframes>4</yframes>
+  <frameInterval>20</frameInterval>
+  <width>44</width>
+  <height>11</height>
+  <speedX>90</speedX>
+  <speedY>0</speedY>
+  <bulletSpeed>400</bulletSpeed>
+  <maxBullet>6</maxBullet>
+  <distance>400</distance>
+  <transparency>true</transparency>
+  <chunk>
+    <comeback>false</comeback>
+    <size>10</size>
+    <distance>100</distance>
+  </chunk>
+</bullet>
+
+<ghostb>
+  <filePositive>images/bones.png</filePositive>
+  <fileNegative>images/bones.png</fileNegative>
+  <comeback>false</comeback>
+  <totalInstance>5</totalInstance>
+  <startLoc x="50" y="470"/>
+  <xframes>1</xframes>
+  <yframes>1</yframes>
+  <frameInterval>20</frameInterval>
+  <width>44</width>
+  <height>11</height>
+  <speedX>90</speedX>
+  <speedY>0</speedY>
+  <bulletSpeed>200</bulletSpeed>
+  <maxBullet>3</maxBullet>
+  <distance>350</distance>
+  <transparency>true</transparency>
+  <safeDistance>600</safeDistance>
+  <bulletInterval>600</bulletInterval>
+  <chunk>
+    <comeback>false</comeback>
+    <size>18</size>
+    <distance>50</distance>
+  </chunk>
+</ghostb>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <unused>0</unused>
+</font>
+
+</GameData>
